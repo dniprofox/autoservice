@@ -1,0 +1,41 @@
+.team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #d9d9d9;
+}
+.team__items {
+  display: flex;
+  justify-content: space-between;    
+}
+.team__item {
+  margin-top: 20px;
+  max-width: 370px;
+  width: 100%;
+  position: relative;
+  img {    
+    width: 97%;    
+  }
+}
+.team__item-overlay {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 97%;
+  height: 97%;
+  transition: $trans;
+  opacity: 0;
+  background-color: $yellow;
+  h2 {
+    margin-left: 20px;
+    margin-top: 50px;
+    bottom: 0;
+    text-transform: uppercase;   
+  }
+  span {
+    margin-left: 20px; 
+  }
+  &:hover {
+    opacity: .8;
+  }
+}

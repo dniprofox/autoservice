@@ -1,0 +1,27 @@
+.services {  
+  background-image: url(../img/services_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.services__item {
+  padding: 25px 15px;
+  text-align: center;
+  max-width: 270px;
+  width: 100%;
+}
+.services__item-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.services__item-text {
+  line-height: 24px;
+  color: #636c72;
+}
+.services__items-row {
+  display: flex;
+  justify-content: space-between;  
+}
